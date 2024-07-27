@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>ADARSH KUMAR Portfolio</title>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="icon" type="image/x-icon" href="/images/resume1.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&family=Roboto+Slab&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <!-- Side Navigation -->
+  <nav class="side-menu">
+    <ul>
+      <li class="hidden active">
+        <a class="page-scroll" href="#page-top"></a>
+      </li>
+      <li>
+        <a href="#head" class="page-scroll">
+          <span class="menu-title">Top</span>
+          <span class="dot"></span>
+        </a>
+      </li>
+      <li>
+        <a href="#about" class="page-scroll">
+          <span class="menu-title">About</span>
+          <span class="dot"></span>
+        </a>
+      </li>
+      <li>
+        <a href="#cards" class="page-scroll">
+          <span class="menu-title">Game</span>
+          <span class="dot"></span>
+        </a>
+      </li>
+      <li>
+      <li>
+        <a href="#carousel" class="page-scroll">
+          <span class="menu-title">Carousel</span>
+          <span class="dot"></span>
+        </a>
+      </li>
+      <li>
+        <a href="#bottom" class="page-scroll">
+          <span class="menu-title">Bottom</span>
+          <span class="dot"></span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Header -->
+
+  <div id="head" class="container head">
+    <div class="row">
+      <div class="col-lg-6 col-sm-12">
+        <img width="350px" class="profile-img" src="images/profile-pic.png">
+      </div><br>
+      <div id="head-content" class="col-lg-6 col-sm-12" data-aos="fade-left">
+        <h2 id="name" data-text="Hi, I'm Adarsh Kumar" class="name"></h2>
+        <p style="color: rgb(37, 37, 37);">
+          <br>
+          <br>
+        <h2>About</h2>
+        <!-- <h3>🚀 ADARSH KUMAR | Tech Enthusiast</h3> -->
+
+        Passionate about the infinite possibilities of GenAI and technology! Currently navigating the world of
+        technology as a
+        diligent B.Tech student at IIIT Lucknow. My journey involves not just coding but sculpting innovative solutions
+        that
+        resonate with the future. <br><br>
+
+        In the realm of programming, my toolbox features the precision of C++, the dynamism of the MERN stack (MongoDB,
+        Express.js, React.js, Node.js), and the versatility of Python. I thrive on the challenges of implementing
+        intricate Data
+        Structures and Algorithms, leveraging them to optimize performance and foster groundbreaking
+        advancements.<br><br>
+
+        Let's not just code the future, but architect it with creativity, innovation, and an unyielding passion for the
+        art and
+        science of technology! 💻
+        🚀</p>
+        <button class="btn btn-dark download-button" type="button"><a style="color: aliceblue; text-decoration: none;"
+            href="https://drive.google.com/file/d/1BQae-QVYUKYI8sKMdZZP0EhVx1t7UlQW/view?usp=sharing"
+            download>Resume</a> <i class="fa-solid fa-download"></i> </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- About -->
+
+  <div id="about" class="tilt1">
+  </div>
+  <div class="testimonials">
+    <section class="contain">
+      <div class="row">
+        <div data-aos="fade-right" class="col-lg-6 col-sm-12">
+          <h2 style="color: whitesmoke;">Motivations</h2><br><br>
+          <p style="color: rgb(172, 169, 169);">Fueling my enthusiasm is a relentless commitment to refining my skills,
+            staying ahead of the tech curve, and
+            contributing meaningfully to the ever-evolving landscape of technology. 🌐 Beyond the syntax and logic, I am
+            driven by a
+            profound love for problem-solving and a relentless pursuit of pushing boundaries. <br><br>
+
+            📚 <b>Extracurricular Activities </b> :-
+
+            As the Coordinator of Crotonia, the Literary Society at our college, I blend my passion for literature with
+            technology,
+            fostering a creative space where words meet innovation.</p>
+        </div>
+        <div data-aos="fade-left" class="col-lg-6 col-sm-12">
+          <br>
+          <img class="about-image"
+            src="https://cdn.dribbble.com/users/4908/screenshots/2760742/launching-rocket-dribbble.gif" alt="img">
+        </div>
+      </div>
+    </section>
+  </div>
+  <div id="cards" class="tilt2">
+  </div>
+
+  <!-- Cards -->
+  <div>
+    <div class="row">
+      <div class="col-lg-6 label">
+        <h5>Wanna Play?</h5>
+        <p>It's not simple as you think.</p>
+      </div>
+      <div class="col-lg-5 tic-tac">
+        <div id="container">
+          <div id="score">Losses: <div id="score-o">0</div> | Ties: <div id="score-g">0</div> | Wins: <div id="score-w">
+              0</div>
+          </div>
+          <br>
+          <div id="board"></div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+  </div>
+
+  <!-- Carousel -->
+  <section id="carousel">
+    <div data-aos="fade" id="carousel-inner">
+      <p style="color: rgb(78, 78, 78);">Carousel Here</p>
+      <div id="myCarousel" class="carousel slider container" data-flickity='{"autoPlay": true}'>
+        <div class="carousel-cell slider-cell"><a href="#"><img class="app-img"
+              src="https://i.ytimg.com/vi/R3unPcJDbCc/maxresdefault.jpg"></a></div>
+        <div class="carousel-cell slider-cell"><a href="#"><img class="app-img"
+              src="https://www.colorpsychology.org/wp-content/uploads/2015/02/pink.png" alt=""></a></div>
+        <div class="carousel-cell slider-cell"><a href="#"><img class="app-img"
+              src="https://htmlcolorcodes.com/assets/images/colors/baby-blue-color-solid-background-1920x1080.png"
+              alt=""></a></div>
+        <div class="carousel-cell slider-cell"><a href="#"><img class="app-img"
+              src="https://www.asianpaints.com/content/dam/asian_paints/colours/swatches/266.png.transform/cc-width-720-height-540/image.png"></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bottom Section -->
+  <section id="bottom" class="container-fluid">
+    <div class="row bottom">
+      <div data-aos="fade-right" class="col-lg-6 col-sm-6 bottom-content">
+        <h3 style="color: ivory;">Loreum Ipsum</h3>
+        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical
+          Latin literature from 45 BC, making it over 2000 years old. Richard, a Latin professor at Hampden-Sydney
+          College in Virginia.
+          Lorem Ipsum is not simply random text.</p>
+      </div>
+      <div data-aos="fade-down" class="col-lg-6 col-sm-6 ">
+        <center>
+          <table class="table-position">
+            <tr>
+              <td>
+                <div class="bottom-box"></div>
+              </td>
+              <td>
+                <div class="bottom-box tilt-box"></div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="bottom-box"></div>
+              </td>
+              <td>
+                <div class="bottom-box"></div>
+              </td>
+            </tr>
+          </table>
+        </center>
+      </div>
+    </div>
+  </section>
+  <div class="cursor"></div>
+
+  <!-- aos data -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 150,
+      duration: 1000
+    });
+  </script>
+  <script src="js/app.js"></script>
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+</body>
+
+</html>
